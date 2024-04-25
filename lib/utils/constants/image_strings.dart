@@ -8,7 +8,7 @@ class TImages {
   static const String facebook = "assets/logos/facebook-icon.png";
 
   // OnBoarding Images
-  static const String onBoardingImage1 = "assets/images/on_boarding_images/choose-product.gif";
-  static const String onBoardingImage2 = "assets/images/on_boarding_images/select-payment-method.gif";
-  static const String onBoardingImage3 = "assets/images/on_boarding_images/delivery.gif";
+  static const String onBoardingImage1 = "assets/images/on_boarding_images/online-shopping.png";
+  static const String onBoardingImage2 = "assets/images/on_boarding_images/online-payment.png";
+  static const String onBoardingImage3 = "assets/images/on_boarding_images/delivery-bike.png";
 }
