@@ -1,7 +1,7 @@
-// LIST OF Enums
+/* LIST OF Enums */
 
-enum TextSizes {small, medium, large}
+enum TextSizes { small, medium, large }
 
-enum OrderStatus {processing, shipped, delivered}
+enum OrderStatus { processing, shipped, delivered }
 
-enum PaymentMethods {paypal, googlePay, applePay, visa, masterCard, creditCard, paystack, razorPay, paytm}
+enum PaymentMethods { paypal, googlePay, applePay, visa, masterCard, creditCard, payStack, razorPay, paytm }

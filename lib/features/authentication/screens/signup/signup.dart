@@ -28,12 +28,8 @@ class SignupScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-
               /// Title
-              Text(TTexts.signupTitle, style: Theme
-                  .of(context)
-                  .textTheme
-                  .headlineMedium),
+              Text(TTexts.signupTitle, style: Theme.of(context).textTheme.headlineMedium),
               const SizedBox(height: TSizes.spaceBtwSections),
 
               /// Form

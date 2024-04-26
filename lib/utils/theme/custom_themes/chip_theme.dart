@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class TChipTheme{
+class TChipTheme {
   TChipTheme._();
 
   static ChipThemeData lightChipTheme = ChipThemeData(

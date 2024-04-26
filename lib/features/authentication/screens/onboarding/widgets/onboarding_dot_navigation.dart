@@ -28,6 +28,7 @@ class OnBoardingDotNavigation extends StatelessWidget {
           activeDotColor: dark ? TColors.light : TColors.dark,
           dotHeight: 6,
         ),
-      ),);
+      ),
+    );
   }
 }

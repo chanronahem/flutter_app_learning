@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class TBottomSheetTheme{
+class TBottomSheetTheme {
   TBottomSheetTheme._();
 
   static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
