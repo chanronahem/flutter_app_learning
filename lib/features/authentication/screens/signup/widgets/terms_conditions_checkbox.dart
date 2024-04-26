@@ -25,12 +25,12 @@ class TTermsAndConditionsCheckbox extends StatelessWidget {
               TextSpan(text: '${TTexts.iAgreeTo} ', style: Theme
                   .of(context)
                   .textTheme
-                  .bodySmall),
+                  .labelSmall),
               TextSpan(
                   text: '${TTexts.privacyPolicy} ', style: Theme
                   .of(context)
                   .textTheme
-                  .bodyMedium!
+                  .labelMedium!
                   .apply(
                 color: dark ? TColors.white : TColors.primary,
                 decoration: TextDecoration.underline,
@@ -40,11 +40,11 @@ class TTermsAndConditionsCheckbox extends StatelessWidget {
               TextSpan(text: '${TTexts.and} ', style: Theme
                   .of(context)
                   .textTheme
-                  .bodySmall),
+                  .labelSmall),
               TextSpan(text: '${TTexts.termsOfUse} ', style: Theme
                   .of(context)
                   .textTheme
-                  .bodyMedium!
+                  .labelMedium!
                   .apply(
                 color: dark ? TColors.white : TColors.primary,
                 decoration: TextDecoration.underline,

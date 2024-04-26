@@ -6,13 +6,22 @@ import 'package:flutter_app_learning/utils/constants/sizes.dart';
 import 'package:flutter_app_learning/utils/constants/text_strings.dart';
 import 'package:get/get.dart';
 
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/helpers/helper_functions.dart';
+
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final dark = THelperFunctions.isDarkMode(context);
+
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        iconTheme: IconThemeData(
+          color: dark ? TColors.white : TColors.black,
+        ),
+      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(TSizes.defaultSpace),
