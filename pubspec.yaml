@@ -19,10 +19,10 @@ dependencies:
   url_launcher: ^6.2.6
   flutter_native_splash: ^2.4.0
   smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
 
   # Launcher
   flutter_launcher_icons: ^0.13.1
-#  flutter_app_name: ^0.1.1
 
   # Icons
   iconsax: ^0.0.8
@@ -43,9 +43,11 @@ flutter:
 
   #---------- ASSETS ----------#
   assets:
-    - assets/icons/
-    - assets/images/on_boarding_images/
     - assets/logos/
+    - assets/icons/categories/
+    - assets/images/banners/
+    - assets/images/on_boarding_images/
+    - assets/images/products/
 
   #---------- FONTS ----------#
   fonts:
@@ -91,7 +93,3 @@ flutter_launcher_icons:
   macos:
     generate: true
     image_path: "assets/logos/h-splash-logo.png"
-
-#---------- LAUNCHER APP NAME ----------#
-#flutter_app_name:
-#  name: "Epic Forge"

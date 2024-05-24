@@ -16,4 +16,22 @@ class TImages {
   static const String deliveredEmailIllustration = "assets/images/on_boarding_images/notification.png";
   static const String staticSuccessIllustration = "assets/images/on_boarding_images/success.png";
   static const String verifyIllustration = "assets/images/on_boarding_images/decision.png";
+
+  /// Category Icons
+  static const String sportIcon = "assets/icons/categories/sports.png";
+  static const String clothIcon = "assets/icons/categories/clothes.png";
+  static const String shoeIcon = "assets/icons/categories/sneakers.png";
+  static const String cosmeticIcon = "assets/icons/categories/cosmetics.png";
+  static const String animalIcon = "assets/icons/categories/pet-house.png";
+  static const String toyIcon = "assets/icons/categories/toys.png";
+  static const String furnitureIcon = "assets/icons/categories/furnitures.png";
+  static const String jeweleryIcon = "assets/icons/categories/jewellery.png";
+
+  /// Banners
+  static const String promoBanner1 = "assets/images/banners/promo-banner-1.jpg";
+  static const String promoBanner2 = "assets/images/banners/promo-banner-2.jpg";
+  static const String promoBanner3 = "assets/images/banners/promo-banner-3.jpg";
+
+  /// Products
+  static const String productImage1 = "assets/images/products/pexels-mnzoutfits-1598505.jpg";
 }
